@@ -14,7 +14,7 @@ $payload     = json_decode(file_get_contents("php://input"), true);
 $userMessage = $payload['message'] ?? '';
 
 // Prefer environment variable for key
-$apiKey = 'sk-63a2625aedec46a4b03f2b42b3933ea0';
+$apiKey = 'sk-63a2625';
 
 // Basic validation
 if (! $userMessage) {

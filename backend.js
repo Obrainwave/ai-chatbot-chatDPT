@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors()); // enable CORS for development; restrict in production
 
-const API_KEY = 'sk-63a2625aedec46a4b03f2b42b3933ea0';
+const API_KEY = 'sk-63a2625aed';
 
 app.post('/chat', async (req, res) => {
     try {
